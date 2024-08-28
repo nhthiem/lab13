@@ -1,0 +1,72 @@
+.carousel-item {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-img1 {
+  background-color: black;
+  background-size: cover;
+  background-image: url("/Lab/12/Lab 12 – Carousel Page/img/1006672.jpg");
+}
+
+.bg-img2 {
+  background-color: black;
+  background-size: cover;
+  background-image: url("/Lab/12/Lab 12 – Carousel Page/img/780551.jpg");
+}
+
+.bg-img3 {
+  background-color: black;
+  background-size: cover;
+  background-image: url("/Lab/12/Lab 12 – Carousel Page/img/776444.jpg");
+}
+
+.carousel-caption h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.carousel-caption p {
+  font-size: 1.5rem;
+  color: #ddd;
+}
+
+.carousel-caption .btn {
+  font-size: 1.2rem;
+  padding: 10px 20px;
+}
+
+/* Indicators styling */
+.carousel-indicators button {
+  background-color: #888; /* Color of the indicators */
+}
+
+.carousel-indicators button.active {
+  background-color: #fff; /* Active indicator color */
+}
+
+/* Controls styling */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 20px; /* Giảm kích thước của biểu tượng */
+  height: 20px;
+  background-color: transparent;
+  background-size: 100%;
+}
+
+/* Footer styles */
+footer {
+  background-color: #f8f9fa;
+  padding: 20px;
+  color: #6c757d;
+}
+
+footer a {
+  color: #007bff;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
